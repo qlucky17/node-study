@@ -1,0 +1,23 @@
+{
+  "name": "03-network",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01-chart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.20.0",
+    "iconv-lite": "^0.5.0",
+    "koa": "^2.8.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "request": "^2.88.0",
+    "socket.io": "^2.3.0"
+  }
+}

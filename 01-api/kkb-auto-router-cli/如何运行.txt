@@ -1,0 +1,12 @@
+kkb-auto-router-cli> npm link
+kkb-auto-router-cli> kkb init sample	//创建项目sample, 可以从指定的url下载项目
+运行项目：
+    cd sample
+    npm install
+    npm run serve
+创建kkb-refresh文件（实现路由自动添加功能）
+测试：
+1、在sample项目的views下新增User.vue
+2、执行kkb refresh：
+	sample> kkb refresh
+3、结果：会自动添加路由/user

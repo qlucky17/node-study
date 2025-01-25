@@ -1,0 +1,11 @@
+#! /usr/bin/env node
+
+const program = require('commander')
+const {clone} = require('../lib/download')
+program.action(name=>{
+    console.log('init ' + name);
+    clone('github:su37josephxia/vue-template', name)
+})
+program.parse(process.argv)
+
+

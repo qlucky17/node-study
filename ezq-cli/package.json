@@ -1,0 +1,26 @@
+{
+  "name": "ezq-cli",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ezq-cli": "bin/ezq-cli.js"
+  },
+  "keywords": ["脚手架", "cli", "node命令行开发"],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qhuang05/node-study/tree/master/ezq-cli"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^12.2.0",
+    "ora": "^5.1.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "main": "man.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "hqh",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electron": "^33.3.1"
+  }
+}
