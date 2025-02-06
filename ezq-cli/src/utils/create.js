@@ -25,7 +25,7 @@ const init = () => {
     const spinning = ora(loadingTxt).start();
     try {
       // 方法1: 使用download-git-repo
-      download('github:qhuang05/q-tools', answers.project_name, (error) => {
+      download('github:qlucky17/q-tools', answers.project_name, (error) => {
         if(error){
           spinning.fail('下载失败');
         } else {
@@ -34,7 +34,7 @@ const init = () => {
       });
 
       // 方法2: 使用命令
-      // const url = "https://github.com/qhuang05/q-tools.git";
+      // const url = "https://github.com/qlucky17/q-tools.git";
       // exec(`git clone ${url}`, (error, stdout, stderr) => {
       //   if (error) {
       //     spinning.fail('下载失败');

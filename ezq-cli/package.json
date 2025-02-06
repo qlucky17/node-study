@@ -14,7 +14,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qhuang05/node-study/tree/master/ezq-cli"
+    "url": "https://github.com/qlucky17/node-study/tree/master/ezq-cli"
   },
   "dependencies": {
     "chalk": "^4.1.2",
