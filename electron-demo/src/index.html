@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <link rel="stylesheet" href="./index.css" />
+  <title>Electron Demo</title>
+</head>
+
+<body>
+  <h1>欢迎学习Electron开发</h1>
+  <button id="btn1">查看版本</button>
+  <div class="versions-info"></div>
+  <input id="inputVal" />
+  <button id="btn2">写入并保存文件</button>
+  <button id="btn3">读取文件内容</button>
+  <div class="file-info"></div>
+  <script src="./render.js"></script>
+</body>
+
+</html>
